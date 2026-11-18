@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="icon-dashboard" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M13,9V3h8V9H13ZM3,13V3h8V13H3Zm10,8V11h8V21H13ZM3,21V15h8v6H3ZM5,11H9V5H5v6Zm10,8h4V13H15v6ZM15,7h4V5H15V7ZM5,19H9V17H5v2Zm4-8Zm6-4Zm0,6ZM9,17Z" />
+</symbol>
+<symbol id="icon-home" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M6,19H9V13h6v6h3V10L12,5.5L6,10v9ZM4,21V9l8-6l8,6V21H13V15H11v6H4Zm8-8.75Z" />
+</symbol>
+<symbol id="icon-profile" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M14,13h5V11H14v2Zm0-3h5V8H14v2ZM5,16h8V15.45q0-1.13-1.1-1.79T9,13T6.1,13.66T5,15.45V16Zm5.41-4.59Q11,10.83 11,10q0-0.83-0.59-1.41T9,8Q8.18,8 7.59,8.59T7,10t0.59,1.41T9,12q0.83,0 1.41-0.59ZM4,20q-0.82,0-1.41-0.59T2,18V6Q2,5.18 2.59,4.59T4,4H20q0.83,0 1.41,0.59Q22,5.18 22,6V18q0,0.82-0.59,1.41T20,20H4Zm0-2H20V6H4V18Zm0,0V6V18Z" />    
+</symbol>
+</svg>
