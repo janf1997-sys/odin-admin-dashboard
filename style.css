@@ -15,7 +15,7 @@
 
 :root {
   --color-primary: #fa7921;
-  --color-bg-canvas: #f0ebe1;
+  --color-bg-canvas: #e5ded1;
   --color-bg-paper: #faf8f5;
   --color-accent: #0e7663;
 }
@@ -47,6 +47,8 @@ aside {
 header {
   grid-area: header;
   background-color: var(--color-bg-paper);
+  color: #000;
+  padding: 20px 60px;
 }
 
 main {
@@ -104,4 +106,76 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.icon-top {
+  color: inherit;
+  width: 32px;
+  height: 32px;
+}
+
+.header-top {
+  display: flex;
+  gap: 400px;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+input {
+  flex-grow: 1;
+  border: none;
+  background-color: var(--color-bg-canvas);
+  border-radius: 50px;
+  height: 100%;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 400px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.profile {
+  border-radius: 999px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 6px;
+}
+.hi {
+  font-size: 1.25rem;
+}
+.name-social {
+  font-size: 2rem;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+button {
+  padding: 16px 32px;
 }
