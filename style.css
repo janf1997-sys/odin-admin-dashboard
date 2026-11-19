@@ -12,8 +12,42 @@
   font-style: normal;
   font-display: swap;
 }
+
+:root {
+  --color-primary: #fa7921;
+  --color-bg-canvas: #f0ebe1;
+  --color-bg-paper: #faf8f5;
+  --color-accent: #0e7663;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  grid-template-columns: 260px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar content';
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: var(--color-primary);
+}
+
+header {
+  grid-area: header;
+  background-color: var(--color-bg-paper);
+}
+
+main {
+  grid-area: content;
+  background-color: var(--color-bg-canvas);
 }
