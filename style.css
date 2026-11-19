@@ -63,13 +63,45 @@ main {
 .logo {
   width: 72px;
   height: 72px;
+  margin-right: 16px;
 }
 
-aside svg {
-  margin-right: 16px;
+li svg {
+  width: 48px;
+  height: 48px;
 }
 
 h2 {
   font-size: 2.5rem;
   font-weight: 600;
+}
+li {
+  list-style-type: none;
+  margin-left: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-main {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.icon-container {
+  width: 72px;
+  height: 72px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
