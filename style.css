@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('assets/fonts/Roboto-VariableFont_wdth_wght.woff2');
+  src: url('assets/fonts/Roboto-VariableFont_wdth\,wght.woff2') format('woff2');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto Mono';
-  src: url('assets/fonts/RobotoMono-VariableFont_wght.woff2');
+  src: url('assets/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2');
   font-weight: 100 700;
   font-style: normal;
   font-display: swap;
@@ -30,7 +30,7 @@ body {
   display: grid;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 450px 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'sidebar header'
@@ -40,6 +40,8 @@ body {
 aside {
   grid-area: sidebar;
   background-color: var(--color-primary);
+  padding: 24px;
+  color: var(--color-bg-paper);
 }
 
 header {
@@ -50,4 +52,24 @@ header {
 main {
   grid-area: content;
   background-color: var(--color-bg-canvas);
+}
+
+.nav-item {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+}
+
+aside svg {
+  margin-right: 16px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
