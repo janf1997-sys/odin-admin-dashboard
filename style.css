@@ -215,12 +215,13 @@ main > h3 {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: 128px;
+  gap: 48px;
 }
 .card-content {
-  line-height: 1.5rem;
+  line-height: 1.5;
   padding-top: 16px;
   padding-right: 128px;
+  font-size: 1.25rem;
 }
 .icons {
   display: flex;
@@ -240,9 +241,37 @@ h3 {
   background-color: var(--color-bg-paper);
   border-radius: 10px;
   padding: 32px;
+  margin-bottom: 32px;
 }
 #main-content aside {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+#trending {
+  background-color: var(--color-bg-paper);
+  border-radius: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.user-container img {
+  border-radius: 999px;
+}
+.user-container {
+  display: flex;
+  gap: 10%;
+}
+.tag {
+  font-weight: 500;
+}
+.entry span {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+hr {
+  margin: 24px 0;
 }
