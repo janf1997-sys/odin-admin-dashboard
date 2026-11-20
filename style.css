@@ -48,7 +48,7 @@ header {
   grid-area: header;
   background-color: var(--color-bg-paper);
   color: #000;
-  padding: 20px 60px;
+  padding: 16px 60px;
 }
 
 main {
@@ -120,7 +120,7 @@ a {
   display: flex;
   gap: 400px;
   justify-content: space-between;
-  margin-bottom: 64px;
+  margin-bottom: 16px;
 }
 
 .search {
@@ -190,10 +190,10 @@ button {
 }
 #main-content {
   grid-area: content;
-  padding: 16px;
+  padding: 32px 32px 64px 16px;
   gap: 16px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(260px, 25vw, 320px);
+  grid-template-columns: minmax(0, 1fr) clamp(280px, 25vw, 380px);
   grid-template-areas: 'main aside';
   background-color: var(--color-bg-canvas);
 }
@@ -202,8 +202,10 @@ button {
   grid-area: aside;
 }
 
-main > p {
+main > h3 {
   grid-column: 1 / 3;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .card {
   background-color: var(--color-bg-paper);
@@ -229,4 +231,18 @@ main > p {
 .icons svg {
   width: 32px;
   height: 32px;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#announcements {
+  background-color: var(--color-bg-paper);
+  border-radius: 10px;
+  padding: 32px;
+}
+#main-content aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
